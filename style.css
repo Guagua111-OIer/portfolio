@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: monospace, sans-serif;
+    line-height: 0.5;
+}
+
+.dd {
+    background: radial-gradient(circle, #c2c2c2 1px, transparent 1px);
+    background-size: 10px 10px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(2, 240, 2);
+    background-size: 100% 200%;
+    background-clip: text;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+    transition: all 0.2s;
+}
+
+a:hover {
+    color: rgb(2, 240, 2);
+}
+
+hr {
+    border: none;
+    height: 4px;
+}
